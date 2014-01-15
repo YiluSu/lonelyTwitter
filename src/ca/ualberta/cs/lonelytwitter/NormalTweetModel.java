@@ -3,10 +3,10 @@ package ca.ualberta.cs.lonelytwitter;
 import java.util.Date;
 
 
-public class normalTweetModel extends lonelyTweetModel
+public class NormalTweetModel extends LonelyTweetModel
 {
 
-    public normalTweetModel(String text) {
+    public NormalTweetModel(String text) {
         super(text);
     }
 
