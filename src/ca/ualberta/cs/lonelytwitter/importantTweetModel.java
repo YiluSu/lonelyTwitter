@@ -12,8 +12,15 @@ public class importantTweetModel extends lonelyTweetModel {
         super(text);
     }
     
+    @Override
     public void setText(String text) {
         this.text = text;
+    }
+    
+    @Override
+    public boolean isImportant() {
+        
+        return true;
     }
 
 }

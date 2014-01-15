@@ -15,6 +15,8 @@ public abstract class lonelyTweetModel {
     
     public abstract void setText(String text);
     
+    public abstract boolean isImportant();
+    
     public Date getTimestamp() {
         return timestamp;
     }
